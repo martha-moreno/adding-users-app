@@ -3,7 +3,9 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "build": "npm install",
+    "start": "node http_server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "exports": {
     "import": "./es6entry.mjs",
