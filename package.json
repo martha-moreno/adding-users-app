@@ -1,0 +1,40 @@
+{
+  "name": "myusers-app",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "exports": {
+    "import": "./es6entry.mjs",
+    "require": "./es5entry.cjs"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "lowdb": "^1.0.0",
+    "morgan": "~1.9.1"
+  },
+  "description": "users app",
+  "main": "http_server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martha-moreno/myusers-app.git"
+  },
+  "keywords": [
+    "users"
+  ],
+  "author": "Martha",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/martha-moreno/myusers-app/issues"
+  },
+  "homepage": "https://github.com/martha-moreno/myusers-app#readme",
+  "devDependencies": {
+    "@faker-js/faker": "^6.0.0-alpha.7"
+  }
+}
